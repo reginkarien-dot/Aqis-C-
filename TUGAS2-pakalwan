@@ -1,0 +1,30 @@
+using namespace std;
+#include <iostream>
+int main()  {
+      string makanan[2]={"soto","rawon"};
+        int   harga[2]={15000,20000};
+      int i;
+      int porsi[i];
+      int total;
+      string ulang;
+do{
+for(i=0;i<2;i++)
+{
+    cout<<"makanan"<<endl;
+    cout<<makanan[i]<<endl;
+    cout<<"harga"<<endl;
+    cout<<harga[i]<<endl;
+    cout<<"porsi";
+    cin>>porsi[i];
+       total=harga[i]*porsi[i];
+    cout<<"total";
+    cout<<total;
+    cout<<"**********__________**********"<<endl;
+}
+cout<<"anda mau mengulang , tekan y atau "Y" "
+cin>>ulang;
+}
+while(ulang=="y" || ulang =="Y")
+    
+    return 0;
+}
